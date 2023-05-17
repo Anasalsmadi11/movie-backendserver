@@ -387,10 +387,7 @@ function peopleHandle(req,res){
 
 // res.json(`welcome to my first server`)
 app.get("/", (req, res) => {
-let movies=movieData.data.map((el) => {
-  new Movie(el.title, el.poster_path, el.overview);
-});
-res.json(movies)
+  return res.status(200).send("Hello World");
 });
 
 function favorite(req, res) {
