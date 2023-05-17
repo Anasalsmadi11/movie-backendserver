@@ -1,0 +1,3 @@
+INSERT INTO movielist(title,releasedate,posterpath,overview) values('NARUTO THE LAST','2014','https://upload.wikimedia.org/wikipedia/en/0/0c/TheLastNarutomovie.jpg','The Last: Naruto the Movie is a Japanese animated action-romance film produced by Studio Pierrot and directed by Tsuneo Kobayashi');
+
+insert into movielist(title,releasedate,posterpath,overview) values('The Tale of the Princess Kaguya','2013','https://upload.wikimedia.org/wikipedia/en/6/68/The_Tale_of_the_Princess_Kaguya_%28poster%29.jpg','Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady.');
