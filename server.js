@@ -300,8 +300,14 @@ function updateMovies(req,res){
   const values=[req.body.title, req.body.releasedate, req.body.posterpath, req.body.overview]
 
   client.query(sql, values).then((data)=>{
-    res.status(200).json(data.rows)
-  })
+
+      const newSql= `select * from movielist`
+      client.query(newSql).then((data)=>{
+  
+        res.status(200).json(data.rows)
+      })
+    })
+  
 }
 
 function getMoviesFromDb(req,res){
